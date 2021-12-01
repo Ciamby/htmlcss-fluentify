@@ -1,0 +1,76 @@
+/*HEADER*/
+
+header {
+	background-color: #0c325a;
+}
+
+.logo {
+	width: 10%;
+	padding-top: 10px;
+}
+
+.logo img {
+	width: 100%;
+}
+
+nav {
+	width: 90%;
+	padding-top: 15px;
+	padding-bottom: 80px;
+}
+
+nav ul, footer ul {
+	list-style: none;
+}
+
+nav ul.f-left {
+	padding-left: 20px;
+}
+
+nav ul.f-left li {
+	float: left;
+}
+
+nav ul.f-right li {
+	float: right;
+}
+
+nav ul.f-right li:last-child {
+	margin:0 10px;
+}
+
+a.brd-white {
+	border:1px solid white;
+}
+
+header .hero {
+	background-image: url(../img/background-header.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position-x: 545px; 
+}
+
+.hero .plain {
+	width: 45%;
+	color: white;
+	padding: 50px 0 70px;
+}
+
+/*BANNER*/
+
+.bg-lightgrey {
+	background-color: lightgrey;
+	padding: 40px 0;
+}
+
+.text-banner {
+	text-align: center;
+}
+
+.text-banner h3 {
+	color: black;
+}
+
+.text-banner h5 {
+	color: darkgrey;
+}

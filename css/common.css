@@ -1,0 +1,64 @@
+/*COMMON*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.f-left { 
+	float: left;
+}
+
+.f-right {
+	float: right;
+}
+
+a:not(#test) {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+.button {
+	border-radius: 5px;
+}
+
+a.bg-green {
+	background-color: #7cbb02;
+	border: 1px solid #7cbb02;
+}
+
+a.big {
+	padding: 25px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.column {
+	float: left;
+	padding: 0 20px;
+}
+
+.pt-10 {
+	padding-top: 10px;
+}
+
+.mx-20 {
+	margin: 0 20px;
+}
